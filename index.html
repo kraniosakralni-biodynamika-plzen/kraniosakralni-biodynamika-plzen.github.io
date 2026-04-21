@@ -70,11 +70,21 @@ banner {
     height: 380px;
 }
         .banner-image {
-            flex: 2;
-            background-image: url("IMG_7410.PNG");
-            background-size: cover;
-            background-position: center;
+            grid-area: image;
+    background-image: url("IMG_7410.PNG");
+    background-size: cover;
+    background-position: center;
         }
+
+.banner-panel {
+    grid-area: panel;
+    background-color: #cfe3dc;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3a6f66;
+}
 
         .banner-panel {
             flex: 1;

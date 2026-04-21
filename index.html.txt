@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Kraniosakrální biodynamika | Plzeň</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kraniosakrální biodynamika v Plzni – jemná terapie pro uvolnění stresu, napětí a podporu rovnováhy těla i mysli.">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f9f8;
+        }
+        header {
+            background: #cfe3dc;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.2em;
+        }
+        header p {
+            font-size: 1.1em;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #3a6f66;
+            margin-bottom: 15px;
+        }
+        .box {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        footer {
+            background: #3a6f66;
+            color: #ffffff;
+            text-align: center;
+            padding: 25px 15px;
+        }
+        a {
+            color: #3a6f66;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kraniosakrální biodynamika</h1>
+    <p>Jemná terapie pro obnovu rovnováhy těla i mysli</p>
+    <p>📍 Plzeň</p>
+</header>
+
+<section>
+    <div class="box">
+        <h2>Co je kraniosakrální biodynamika</h2>
+        <p>
+            Kraniosakrální biodynamika je velmi jemná terapeutická metoda,
+            která pracuje s přirozenou schopností těla se regenerovat.
+            Pomocí citlivého doteku podporuje uvolnění napětí,
+            zklidnění nervového systému a návrat k vnitřní rovnováze.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Pro koho je terapie vhodná</h2>
+        <p>
+            Terapie je vhodná pro dospělé i děti, kteří:
+        </p>
+        <ul>
+            <li>jsou dlouhodobě ve stresu nebo vyčerpání</li>
+            <li>trpí bolestmi hlavy, zad nebo napětím v těle</li>
+            <li>mají potíže se spánkem</li>
+            <li>procházejí náročným obdobím v životě</li>
+            <li>chtějí podpořit své celkové zdraví a pohodu</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Jak probíhá sezení</h2>
+        <p>
+            Sezení probíhá v klidném a bezpečném prostředí.
+            Klient je oblečený a většinou leží na lehátku.
+            Terapeut pracuje jemným dotekem, respektuje tempo těla
+            a vytváří prostor pro hluboké uvolnění.
+        </p>
+        <p>
+            Délka sezení je přibližně 60 minut.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>O mně</h2>
+        <p>
+            Jmenuji se <!-- DOPLŇ JMÉNO --> a věnuji se kraniosakrální
+            biodynamice s respektem k jedinečnosti každého člověka.
+            Věřím v přirozenou inteligenci těla a jeho schopnost
+            najít rovnováhu, pokud dostane potřebný prostor.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Kontakt</h2>
+        <p>
+            📍 Plzeň<br>
+            📧 E-mail: email@email.czemail@email.cz</a><br>
+            📞 Telefon: +420 xxx xxx xxx<br>
+            📩 Objednání je možné telefonicky nebo e-mailem
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 | Kraniosakrální biodynamika – Plzeň</p>
+</footer>
+
+</body>
+</html>

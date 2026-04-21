@@ -3,171 +3,245 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Kraniosakrální biodynamika - Mgr. Růžena Horňáková</title>
+    <title>Kraniosakrální biodynamika – Mgr. Růžena Horňáková</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kraniosakrální biodynamika v Plzni – jemná terapie pro uvolnění stresu, napětí a podporu rovnováhy těla i mysli.">
-    <style>
-       
-<style>
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f7f9f8;
-}
 
-section {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
+    <!-- Ikony -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.miny {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f9f8;
+        }
 
-h2 {
-    color: #3a6f66;
-    margin-bottom: 15px;
-}
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
 
-.box {
-    background: #ffffff;
-    padding: 25px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
+        h2 {
+            color: #3a6f66;
+            margin-bottom: 15px;
+        }
 
-footer {
-    background: #3a6f66;
-    color: #ffffff;
-    text-align: center;
-    padding: 25px 15px;
-}
+        .box {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
 
-a {
-    color: #3a6f66;
-    text-decoration: none;
-    font-weight: bold;
-}
-a:hover {
-    text-decoration: underline;
-}
+        footer {
+            background: #3a6f66;
+            color: #ffffff;
+            text-align: center;
+            padding: 25px 15px;
+        }
 
-/* ====== BANNER S FOTKOU A ZELENÝM PANELEM ====== */
-.banner {
-    display: flex;
-    height: 380px;
-    width: 100%;
-}
+        a {
+            color: #3a6f66;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-.banner-image {
-    flex: 2;
-    background-image: url("IMG_7410.PNG");
-    background-size: cover;
+        a:hover {
+            text-decoration: underline;
+        }
 
+        /* ===== BANNER ===== */
+        .banner {
+            display: flex;
+            height: 380px;
+            width: 100%;
+        }
+
+        .banner-image {
+            flex: 2;
+            background-image: url("IMG_7410.PNG");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .banner-panel {
+            flex: 1;
+            background-color: #cfe3dc;
+            padding: 40px 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #3a6f66;
+        }
+
+        .banner-panel h1 {
+            font-size: 1.9em;
+            margin-bottom: 8px;
+        }
+
+        .banner-panel .name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .banner-panel .subtitle {
+            font-size: 1em;
+            opacity: 0.9;
+            margin-bottom: 12px;
+        }
+
+        .banner-panel .address {
+            font-size: 0.95em;
+            opacity: 0.85;
+        }
+
+        /* atmosférická pauza */
+        .atmosfera {
+            width: 100%;
+            height: 240px;
+            background-image: url("praxe.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 60px 0;
+            border-radius: 10px;
+            filter: blur(1.5px);
+            opacity: 0.6;
+        }
+
+        /* kontakt s fotem */
+        .kontakt-foto {
+            background-image: url("mistnost.jpg");
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            position: relative;
+        }
+
+        .kontakt-foto::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.45);
+            border-radius: 8px;
+        }
+
+        .kontakt-foto > * {
+            position: relative;
+        }
+
+        .kontakt-foto i {
+            color: #ffffff;
+            font-size: 1.4em;
+        }
+
+        /* mobil */
+        @media (max-width: 768px) {
+            .banner {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .banner-image {
+                height: 220px;
+            }
+
+            .banner-panel {
+                text-align: center;
+            }
+        }
     </style>
-    
-<link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
 </head>
 
 <body>
- 
+
 <header class="banner">
     <div class="banner-image"></div>
-
     <div class="banner-panel">
         <h1>Kraniosakrální biodynamika</h1>
         <p class="name">Mgr. Růžena Horňáková</p>
         <p class="subtitle">Jemná terapie pro obnovu rovnováhy těla i mysli</p>
+        <p class="address">📍 Plachého 1874/44, Plzeň</p>
     </div>
 </header>
 
 <section>
-    <div class="box">
-        <h2>Co je kraniosakrální biodynamika</h2>
-        <p>
-            Kraniosakrální biodynamika je velmi jemná terapeutická metoda,
-            která pracuje s přirozenou schopností těla se regenerovat.
-            Pomocí citlivého doteku podporuje uvolnění napětí,
-            zklidnění nervového systému a návrat k vnitřní rovnováze.
-        </p>
-    </div>
 
-    <div class="box">
-        <h2>Pro koho je terapie vhodná</h2>
-        <p>
-            Terapie je vhodná pro dospělé i děti, kteří:
-        </p>
-        <ul>
-            <li>jsou dlouhodobě ve stresu nebo vyčerpání</li>
-            <li>trpí bolestmi hlavy, zad nebo napětím v těle</li>
-            <li>mají potíže se spánkem</li>
-            <li>procházejí náročným obdobím v životě</li>
-            <li>chtějí podpořit své celkové zdraví a pohodu</li>
-        </ul>
-    </div>
+<div class="box">
+    <h2>Co je kraniosakrální biodynamika</h2>
+    <p>
+        Kraniosakrální biodynamika je velmi jemná terapeutická metoda,
+        která pracuje s přirozenou schopností těla se regenerovat.
+        Pomocí citlivého doteku podporuje uvolnění napětí,
+        zklidnění nervového systému a návrat k vnitřní rovnováze.
+    </p>
+</div>
 
-    <div class="box">
-        <h2>Jak probíhá sezení</h2>
-        <p>
-            Sezení probíhá v klidném a bezpečném prostředí.
-            Klient je oblečený a většinou leží na lehátku.
-            Terapeut pracuje jemným dotekem, respektuje tempo těla
-            a vytváří prostor pro hluboké uvolnění.
-        </p>
-        <p>
-            Délka sezení je přibližně 90 minut. U dětí 60 minut.
-        </p>
-    </div>
+<div class="box">
+    <h2>Pro koho je terapie vhodná</h2>
+    <ul>
+        <li>dlouhodobý stres a vyčerpání</li>
+        <li>bolesti hlavy, zad, napětí v těle</li>
+        <li>potíže se spánkem</li>
+        <li>náročná životní období</li>
+        <li>podpora celkové pohody</li>
+    </ul>
+</div>
 
-    <div class="box">
-        <h2>O mně</h2>
-        <p>
-            Jmenuji se Růžena Horňáková a věnuji se kraniosakrální
-            biodynamice s respektem k jedinečnosti každého člověka.
-            Věřím v přirozenou inteligenci těla a jeho schopnost
-            najít rovnováhu, pokud dostane potřebný prostor.
-        </p>
-        <p>       
-            Absolvovala jsem v letech 2022–2023 dvouletý výcvik
-            v Institutu CranioSacrální Biodynamiky,
-            pod vedením lektorky Jeevan Shakti Sajwel a Lukáše Havelky.
-        </p>
-    </div>
+<div class="box">
+    <h2>Jak probíhá sezení</h2>
+    <p>
+        Sezení probíhá v klidném a bezpečném prostředí.
+        Klient je oblečený a leží na lehátku.
+        Pracuji jemným dotekem a respektem k tempu těla.
+    </p>
+    <p>
+        Délka sezení: dospělí cca 90 minut, děti 60 minut.
+    </p>
+</div>
 
-<div class="atmosfera"></div> 
+<div class="box">
+    <h2>O mně</h2>
+    <p>
+        Jmenuji se Růžena Horňáková a věnuji se kraniosakrální biodynamice
+        s respektem k jedinečnosti každého člověka.
+    </p>
+    <p>
+        V letech 2022–2023 jsem absolvovala dvouletý výcvik
+        v Institutu CranioSacrální Biodynamiky
+        pod vedením Jeevan Shakti Sajwel a Lukáše Havelky.
+    </p>
+</div>
+
+<div class="atmosfera"></div>
 
 <div class="box kontakt-foto">
     <h2>Kontakt</h2>
 
-   
-<p>
-    📍 Plachého 1874/44, Plzeň (vchod z vnitrobloku, zvonek „Uzlík“)<br>
-    📧 E-mail: ruzena.stuchla@seznam.cz<br>
-    📞 Telefon: +420 723 834 251<br>
-    📩 Objednání je možné telefonicky, SMS, e-mailem nebo klikněte na ikonku a hned piště zde přes:
-</p>
+    <p>
+        📍 Plachého 1874/44, Plzeň (vchod z vnitrobloku, zvonek „Uzlík“) <br>
+        📧 E-mail: ruzena.stuchla@seznam.cz <br>
+        📞 Telefon: +420 723 834 251
+    </p>
 
-<p>
-    <a href="https://m.me/61550306790281" target="_blank">
-        <i class="fa-brands fa-facebook-messenger fa-lg"></i>
-    </a>
-    &nbsp;&nbsp;
-
-    <a href="https://www.instagram.com/hornakova.ruzenka" target="_blank">
-        <i class="fa-brands fa-instagram fa-lg"></i>
-    </a>
-    &nbsp;&nbsp;
-
-    <a href="https://wa.me/420723834251" target="_blank">
-        <i class="fa-brands fa-whatsapp fa-lg"></i>
-    </a>
-</p>
-
+    <p>
+        <a href="https://m.me/61550306790281" target="_blank">
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://www.instagram.com/hornakova.ruzenka" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://wa.me/420723834251" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </p>
 </div>
 
-
+</section>
 
 <footer>
     <p>© 2026 | Kraniosakrální biodynamika – Plzeň</p>

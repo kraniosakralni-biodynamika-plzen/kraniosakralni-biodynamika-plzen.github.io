@@ -58,11 +58,13 @@
         /* ===== BANNER ===== */
         
 .banner {
-    display: grid;
+   display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "image panel";
     width: 100%;
     height: 380px;
+    column-gap: 0;   /*  DŮLEŽITÉ: ZAKAZUJE MEZERU  */
+    background: none;
 }
         .banner-image {
             grid-area: image;

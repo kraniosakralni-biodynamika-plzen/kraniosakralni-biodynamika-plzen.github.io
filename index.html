@@ -56,6 +56,34 @@
         a:hover {
             text-decoration: underline;
         }
+        
+.kontakt-foto {
+    background-image: url("mistnost.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+}
+
+/* jemné ztmavení, aby byl text čitelný */
+.kontakt-foto::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+}
+
+.kontakt-foto > * {
+    position: relative;
+}
+
+/* barva ikon */
+.kontakt-foto i {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
     </style>
 </head>
 
@@ -123,7 +151,8 @@
     </div>
 
    
-<div class="box">
+
+<div class="box kontakt-foto">
     <h2>Kontakt</h2>
 
     <p>
@@ -134,21 +163,22 @@
     </p>
 
     <p>
-        <a href="https://m.me/TVUJ_FACEBOOK" target="_blank" aria-label="Facebook Messenger">
+        <a href="https://m.me/TVUJ_FACEBOOK" target="_blank">
             <i class="fa-brands fa-facebook-messenger fa-lg"></i>
         </a>
         &nbsp;&nbsp;
 
-        <a href="https://www.instagram.com/TVUJ_INSTAGRAM" target="_blank" aria-label="Instagram">
+        <a href="https://www.instagram.com/TVUJ_INSTAGRAM" target="_blank">
             <i class="fa-brands fa-instagram fa-lg"></i>
         </a>
         &nbsp;&nbsp;
 
-        <a href="https://wa.me/420723834251" target="_blank" aria-label="WhatsApp">
+        <a href="https://wa.me/420723834251" target="_blank">
             <i class="fa-brands fa-whatsapp fa-lg"></i>
         </a>
     </p>
 </div>
+
 
 
 <footer>

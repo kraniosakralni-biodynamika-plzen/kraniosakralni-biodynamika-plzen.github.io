@@ -217,22 +217,32 @@ footer {
         }
 
         /* kontakt s fotem */
-        .kontakt-foto {
-            background-image: url("mistnost2.jpg");
-            background-size: cover;
-            background-position: center;
-            color: #ffffff;
-            position: relative;
-        }
+       
+.kontakt-foto {
+    background-image: url("mistnost2.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+}
 
-        .kontakt-foto::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.45);
-            border-radius: 8px;
-        }
-
+.kontakt-foto::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2); /* jen lehká atmosféra */
+    border-radius: 8px;
+}
+    
+.kontakt-panel {
+    position: relative;
+    max-width: 520px;
+    background: rgba(255, 255, 255, 0.94);
+    padding: 24px 28px;
+    border-radius: 8px;
+    color: #333;
+}
         .kontakt-foto > * {
             position: relative;
         }
@@ -369,6 +379,7 @@ pod vedením Jeevan Shakti Sajwel a Lukáše Havelky.
 </div>
 <div class="atmosfera"></div>
 <div class="box kontakt-foto">
+<div class="kontakt-panel">
 <div class="kontakt-box">
     <h2>Kontakt</h2>
 

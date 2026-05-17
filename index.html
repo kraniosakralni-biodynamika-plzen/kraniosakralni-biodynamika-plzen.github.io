@@ -80,7 +80,7 @@ h2 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-footer {
+.footer {
     background: #3a6f66;
     color: #ffffff;
     text-align: center;
@@ -125,7 +125,7 @@ footer {
 }
         <div class="atmosfera-kontakt"></div>
         
-atmosfera-kontakt {
+.atmosfera-kontakt {
     width: 100%;
     height: 240px;
     background-image: url("mistnost2.jpg");
@@ -139,6 +139,10 @@ atmosfera-kontakt {
 
 
 /* KONTAKT – POZADÍ */
+
+<p style="text-align:center; font-size:1.2em; margin-bottom:20px;">
+  Dopřejte si čas pro sebe a své tělo 🌿
+</p>
 
 <div class="box">
   <h2>Kontakt</h2>
@@ -238,6 +242,7 @@ atmosfera-kontakt {
 
         /* kontakt s fotem */
        
+
 .kontakt-foto {
     background-image: url("mistnost2.jpg");
     background-size: cover;
@@ -247,16 +252,62 @@ atmosfera-kontakt {
     border-radius: 8px;
 }
 
+
 .kontakt-foto::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.2); /* jen lehká atmosféra */
+    background: rgba(0,0,0,0.25);
     border-radius: 8px;
 }
     kontakt-panel h2 {
     color: #3a6f66;
     margin-top: 0;
+}
+
+.kontakt-panel {
+    position: relative;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 520px;
+}
+    
+.kontakt-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+}
+
+.kontakt-item i {
+    color: #3a6f66;
+    margin-top: 4px;
+}
+
+.kontakt-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.kontakt-item a:hover {
+    text-decoration: underline;
+}
+
+.kontakt-ikony {
+    margin: 15px 0;
+}
+
+.kontakt-ikony a {
+    margin-right: 12px;
+    font-size: 1.4em;
+    color: #3a6f66;
+}
+
+.kontakt-cta {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #3a6f66;
 }
 
         .kontakt-foto > * {

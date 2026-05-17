@@ -31,9 +31,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Styly stránky -->
-    <style>      
-}
-
+    <style>
+        
 .kontakt-foto > * {
     position: relative;
 }
@@ -132,29 +131,48 @@ h2 {
 
 
 /* KONTAKT – POZADÍ */
-
-<p style="text-align:center; font-size:1.2em; margin-bottom:20px;">
-  Dopřejte si čas pro sebe a své tělo 🌿
-</p>
-
-<div class="box">
-  <h2>Kontakt</h2>
-  …
-</div>
         
-.kontakt-foto::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+
+.kontakt-foto {
+    background-image: url("mistnost2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.kontakt-foto > * {
-    position: relative;
-    overflow: hidden;
+.kontakt-panel {
+    background: rgba(255,255,255,0.92);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 520px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.kontakt-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.kontakt-item i {
+    color: #3a6f66;
+}
+
+.kontakt-ikony a {
+    margin-right: 12px;
+    font-size: 26px;
+    color: #3a6f66;
+}
+
+.kontakt-ikony a:hover {
+    opacity: 0.7;
 }
 /* MOBIL */
+
 @media (max-width: 768px) {
     .banner {
         flex-direction: column;

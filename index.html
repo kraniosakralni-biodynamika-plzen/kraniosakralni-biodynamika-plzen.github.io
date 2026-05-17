@@ -80,27 +80,49 @@ h2 {
 }
 
 /* BANNER */
+
 .banner {
+    position: relative;
+    height: 320px;
+    background: url("IMG_7410.PNG") center/cover no-repeat;
     display: flex;
-    width: 100%;
-    height: 300px;
-}
-
-.banner-image {
-    width: 65%;
-    background-image: url("IMG_7410.PNG");
-    background-size: cover;
-    background-position: center;
-}
-
-.banner-panel {
-    width: 35%;
-    background-color: #cfe3dc;
-    padding: 40px 35px;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    color: #3a6f66;
+    color: #fff;
+    text-align: center;
+}
+
+/* tmavé překrytí kvůli čitelnosti */
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+/* text */
+.banner-panel {
+    position: relative;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.banner h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+.banner .subtitle {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.banner .address {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
 }
 
 /* ATMOSFÉRA – PLATÍ VŠUDE */

@@ -32,12 +32,6 @@
 
     <!-- Styly stránky -->
     <style>      
-.kontakt-foto::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 8px;
 }
 
 .kontakt-foto > * {
@@ -152,12 +146,13 @@ h2 {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 .kontakt-foto > * {
     position: relative;
+    overflow: hidden;
 }
 /* MOBIL */
 @media (max-width: 768px) {

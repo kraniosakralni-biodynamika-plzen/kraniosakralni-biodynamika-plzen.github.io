@@ -390,6 +390,33 @@ header {
     display: block;
 }
 
+voucher-btn {
+  display: inline-block;
+  background-color: #3a6f66;
+  color: white;
+  padding: 14px 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+/* hover efekt (při najetí myší) */
+.voucher-btn:hover {
+  background-color: #2f5b54;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* jemné kliknutí */
+.voucher-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
     </style>
 </head>
 
@@ -520,36 +547,21 @@ pod vedením Jeevan Shakti Sajwel a Lukáše Havelky.
 
   <p><strong>🎁 Voucher zasílám e‑mailem do 24 hodin.</strong></p>
 
-  <!-- 60 minut -->
-  <a href="https://buy.stripe.com/00w00i51w0WZ7uD7MFes001" target="_blank">
-    <button style="
-      background-color:#3a6f66;
-      color:white;
-      padding:12px 20px;
-      border:none;
-      border-radius:6px;
-      font-size:16px;
-      cursor:pointer;
-      margin-top:10px;
-      margin-bottom:10px;">
-      Koupit voucher – 60 minut (1000 Kč)
-    </button>
-  </a>
+  
+<!-- 60 minut -->
+<a href="https://buy.stripe.com/00w00i51w0WZ7uD7MFes001" target="_blank" class="voucher-btn">
+  Koupit voucher – 60 minut (1000 Kč)
+</a>
 
-  <!-- 90 minut -->
-  <a href="https://buy.stripe.com/cNi7sKbpU8prcOXd6Zes00" target="_blank">
-    <button style="
-      background-color:#3a6f66;
-      color:white;
-      padding:12px 20px;
-      border:none;
-      border-radius:6px;
-      font-size:16px;
-      cursor:pointer;
-      margin-bottom:10px;">
-      Koupit voucher – 90 minut (1500 Kč)
-    </button>
-  </a>
+<!-- 90 minut -->
+<a href="https://buy.stripe.com/cNi7sKbpU8prcOXd6Zes000" target="_blank" class="voucher-btn">
+  Koupit voucher – 90 minut (1500 Kč)
+</a>
+
+<a href="..." class="voucher-btn" style="background-color:#4f8c82;">
+  Koupit voucher – 90 minut (1500 Kč) ⭐ Doporučeno
+</a>
+
 
   <ul>
     <li>60 minut – ideální pro první zkušenost</li>
